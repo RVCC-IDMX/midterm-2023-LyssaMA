@@ -1,0 +1,71 @@
+/*Header Section*/
+
+header {
+    background-color: #fcf4c7;
+    font-family: Arial Bold;
+    font-size: 22px;
+    color: #466b2c;
+    text-align: center;
+}
+
+/*Main Content Section*/
+
+main {
+    font-family: serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f8f7f0ec;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Paragraph Section*/
+
+p {
+    font-family: serif;
+    font-size: 16px;
+    color: rgb(10, 9, 9);
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(37, 34, 34)
+}
+
+/*Reviews Section*/
+
+.Review,
+.review {
+    font-family: serif;
+    text-align: left;
+    background-color: #f3ebebf5;
+    border: 2px solid #214607;
+    padding: 20px;
+    ;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+}
+
+/*Images Section*/
+
+.images {
+    text-align: center;
+}
+
+:center .images img {
+    display: block;
+}
+
+/*Footer Section*/
+
+footer {
+    font-family: Arial Bold;
+    font-size: 16px;
+    color: #466b2c;
+    text-align: center;
+    background-color: #ece1a3;
+}
