@@ -14,9 +14,9 @@ header {
 
 main {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
-    background-color: #ffffffff;
+    padding: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -24,19 +24,22 @@ main {
 /*Paragraph Section*/
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Franklin Gothic Medium;
     font-size: 20px;
     text-align: center;
     color: rgb(7, 6, 6);
-    padding: 20px;
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     color: rgb(37, 34, 34);
-    padding: 10px
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*Reviews Section*/
@@ -45,7 +48,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .Review {
@@ -59,7 +62,7 @@ h2 {
     text-align: center;
     margin: 10px;
     background-color: #072044;
-    height: 400px;
+    height: 450px;
 }
 
 .Review-Container {
@@ -70,8 +73,10 @@ h2 {
 }
 
 .Review .text p {
+    font-family: Tahoma;
+    font-size: 18px;
     color: #ffffff;
-    padding: 0 20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -90,7 +95,7 @@ ul {
 .images img {
     max-width: 200%;
     height: auto;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 /*Footer Section*/
@@ -111,7 +116,6 @@ footer {
 /* Recent Websites Section */
 .Recent.Websites {
     text-align: center;
-
 }
 
 .Recent.Websites h2 {
@@ -141,16 +145,18 @@ footer {
 .icon-row {
     display: flex;
     justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .icon-item {
-    max-width: 30%;
+    width: 30%;
     text-align: center;
 }
 
 .icon img {
-    max-width: 100%;
-    height: auto;
+max-width: 100%;
+height: auto;
 }
 
 .style-quote {
@@ -158,9 +164,18 @@ footer {
     padding: 20px
 }
 
+
 /* Contact Link */
 .icon a {
     font-size: 22;
     margin: 10px 20px;
     text-align: center;
 }
+/* Responsive Design */
+@media screen and (max-width: 770px) {
+    p {
+        font-size: 18px;
+        margin: 5px 10px;
+}
+}  
+    
