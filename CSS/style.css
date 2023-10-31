@@ -107,10 +107,11 @@ footer {
     padding: 0;
 }
 
-.footer-text {
+footer {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     ;
     color: #ffffff;
+    font-size:20pt;
 }
 
 /* Recent Websites Section */
